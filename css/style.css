@@ -59,8 +59,8 @@ form:not(header) {
     margin: 0 auto;
     color: rgba(0, 0, 0, .3);
 }
-border1,
-border2 {
+#border1,
+#border2 {
     display: block;
     width: 95%;
     border-bottom: solid black 2px;
@@ -68,7 +68,7 @@ border2 {
     margin-top: 2.7em;
     position: relative;
 }
-border1:before {
+#border1:before {
     content: "";
     display: block;
     position: absolute;
@@ -77,7 +77,7 @@ border1:before {
     bottom: 3px;
     width: 100%;
 }
-border2 {
+#border2 {
     margin-top: 1.3em;
 }
 fieldset {
