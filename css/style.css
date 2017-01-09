@@ -288,11 +288,11 @@ Media Queries
         margin: auto;
         padding-top: 2.4em;
     }
-    border1 {
+    #border1 {
         width: 96%;
         margin: 3.3em auto 3em;
     }
-    border2 {
+    #border2 {
         width: 96%;
         margin: 2.5em auto 3em;
     }
@@ -311,6 +311,9 @@ Media Queries
         height: 50px;
         width: 100%;
         margin: 20px auto;
+    }
+    .label-div:nth-child(2) {
+        margin-top: 0;
     }
     .label-div label {
         display: inline-block;
